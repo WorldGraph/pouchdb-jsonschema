@@ -19,7 +19,7 @@ db.put([object being persisted], { schemaValidator: validator })
 
 ### Note on pouchdb limitations
 
-Because PouchDB plugins are [applied at the global level](https://github.com/pouchdb/pouchdb/issues/7198#issue-310015544), it is not possible to apply different plugins to different database instances. If it were, the plugin could be configured to associate different databases with different json schema definitions, and it wouldn't be necessary to pass the `schemaValidato` options property to `db.put`. You can get around the awkwardness of needing to pass the `schemaValidator` option to `put` each time by setting up your own database wrapper class and encapsulating the passing of `schemaValidator` there.
+Because PouchDB plugins are [applied at the global level](https://github.com/pouchdb/pouchdb/issues/7198#issue-310015544), it is not possible to apply different plugins to different database instances. If it were, the plugin could be configured to associate different databases with different json schema definitions, and it wouldn't be necessary to pass the `schemaValidator` options property to `db.put`. You can get around the awkwardness of needing to pass the `schemaValidator` option to `put` each time by setting up your own database wrapper class and encapsulating the passing of `schemaValidator` there.
 
 <!-- https://github.com/pouchdb/pouchdb/issues/7198#issue-310015544 -->
 
