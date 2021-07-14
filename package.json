@@ -1,6 +1,6 @@
 {
   "name": "@worldgraph/pouchdb-jsonschema",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "PouchDB Plugin for JSON Schema Validation",
   "repository": "https://github.com/WorldGraph/pouchdb-jsonschema",
   "main": "dist/index.js",
