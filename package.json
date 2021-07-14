@@ -2,6 +2,7 @@
   "name": "@worldgraph/pouchdb-jsonschema",
   "version": "0.1.2",
   "description": "PouchDB Plugin for JSON Schema Validation",
+  "repository": "https://github.com/WorldGraph/pouchdb-jsonschema",
   "main": "dist/index.js",
   "scripts": {
     "test": "jest",
@@ -13,11 +14,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/jest": "^26.0.23",
+    "@types/jest": "^26.0.24",
     "@types/pouchdb": "^6.4.0",
-    "@typescript-eslint/eslint-plugin": "^4.28.1",
-    "@typescript-eslint/parser": "^4.28.1",
-    "eslint": "^7.29.0",
+    "@typescript-eslint/eslint-plugin": "^4.28.3",
+    "@typescript-eslint/parser": "^4.28.3",
+    "eslint": "^7.30.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
     "jest": "^27.0.6",
@@ -27,10 +28,10 @@
     "typescript": "^4.3.5",
     "ulid": "^2.3.0",
     "pouchdb": "^7.2.2",
-    "ajv": "^6.12.6"
+    "ajv": "^8"
   },
   "peerDependencies": {
-    "pouchdb": ">=7.0 <8.0",
+    "pouchdb": "^7.2",
     "ajv": ">8.0"
   }
 }
